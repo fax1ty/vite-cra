@@ -6,6 +6,9 @@ import svgr from "vite-plugin-svgr";
 import { swcReactRefresh } from "vite-plugin-swc-react-refresh";
 
 export default defineConfig({
+  server: {
+    port: 3000,
+  },
   plugins: [swcReactRefresh(), svgr(), eslintPlugin()],
   esbuild: { jsx: "automatic" },
   css: {
