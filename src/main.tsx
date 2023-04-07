@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
         <li>React Fast Refresh</li>
         <li>SVG Components (including SVG optimization)</li>
         <li>Auto-prefixer</li>
-        <li>ESLint and Prettier</li>
+        <li>Rome as Linter and Formatter</li>
       </ul>
     </div>
   </React.StrictMode>

@@ -1,4 +1,3 @@
-import eslintPlugin from "@nabla/vite-plugin-eslint";
 import swcReactRefresh from "@vitejs/plugin-react-swc";
 import autoprefixer from "autoprefixer";
 import dns from "dns";
@@ -13,7 +12,7 @@ export default defineConfig({
     host: "localhost",
     port: 3000,
   },
-  plugins: [swcReactRefresh(), svgr(), eslintPlugin()],
+  plugins: [swcReactRefresh(), svgr()],
   esbuild: { jsx: "automatic" },
   css: {
     postcss: {
